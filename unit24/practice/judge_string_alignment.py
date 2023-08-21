@@ -1,7 +1,7 @@
-prices = map(int, input.split(';'))
+prices = map(int, input().split(';'))
 
-prices = list(map)
+prices = list(prices)
 prices.sort(reverse=True)
 
 for price in prices:
-    '%9s' % format(price, ',')
+    print('%9s' % format(price, ','))
